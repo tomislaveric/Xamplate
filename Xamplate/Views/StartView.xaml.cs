@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace Xamarin.FormsMVVMTemplate.Views
+namespace Xamplate.Views
 {
     public partial class StartView : ContentPage
     {

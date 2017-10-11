@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace Xamarin.FormsMVVMTemplate.ViewModels
+namespace Xamplate.ViewModels
 {
-    public abstract class ViewModelBase : INotifyPropertyChanged
+    public abstract class ViewModelBase : IViewModelBase
     {
         public event PropertyChangedEventHandler PropertyChanged;
 

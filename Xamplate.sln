@@ -1,11 +1,11 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms-MVVM-Template", "Xamarin.Forms-MVVM-Template\Xamarin.Forms-MVVM-Template.csproj", "{5FE9B644-278B-4058-A5D9-6D642258EC1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamplate", "Xamplate\Xamplate.csproj", "{5FE9B644-278B-4058-A5D9-6D642258EC1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms-MVVM-Template.iOS", "iOS\Xamarin.Forms-MVVM-Template.iOS.csproj", "{E8A05FBD-7B7C-4955-A462-05B6F6B8F738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamplate.iOS", "iOS\Xamplate.iOS.csproj", "{E8A05FBD-7B7C-4955-A462-05B6F6B8F738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms-MVVM-Template.Droid", "Droid\Xamarin.Forms-MVVM-Template.Droid.csproj", "{F8CEEEEF-74CC-468F-A092-31EF608D1B8A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamplate.Droid", "Droid\Xamplate.Droid.csproj", "{F8CEEEEF-74CC-468F-A092-31EF608D1B8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

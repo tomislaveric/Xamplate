@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Xamarin.FormsMVVMTemplate.iOS
+namespace Xamplate.iOS
 {
     public class Application
     {

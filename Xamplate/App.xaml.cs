@@ -1,15 +1,19 @@
 ﻿using Xamarin.Forms;
-using Xamarin.FormsMVVMTemplate.Views;
+using Xamplate.Views;
+using Autofac;
+using Xamplate.Services;
+using System.Collections.Generic;
+using System;
+using Xamplate.Bootstrapping;
 
-namespace Xamarin.FormsMVVMTemplate
+namespace Xamplate
 {
     public partial class App : Application
     {
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new StartView());
+            LoadTypes();
         }
 
         protected override void OnStart()
@@ -25,6 +29,12 @@ namespace Xamarin.FormsMVVMTemplate
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+
+        public void LoadTypes()
+        {
+            var bootstrapper = new Bootstrapper(this);
+            bootstrapper.Run();
         }
     }
 }
