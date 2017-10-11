@@ -5,5 +5,5 @@
     </ContentPage.BindingContext>
     <ContentPage.Content>
         <Label Text="{Binding WelcomeText}"/>
-	</ContentPage.Content>
+    </ContentPage.Content>
 </ContentPage>

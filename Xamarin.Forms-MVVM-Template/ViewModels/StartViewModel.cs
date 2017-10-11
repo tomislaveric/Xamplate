@@ -8,7 +8,7 @@ namespace Xamarin.FormsMVVMTemplate.ViewModels
     public class StartViewModel : ViewModelBase
     {
         private readonly INavigationService _navigationService;
-        
+
         public string WelcomeText => "Hello MVVM World";
         public string PageTitle => "Start Page";
 
@@ -16,8 +16,13 @@ namespace Xamarin.FormsMVVMTemplate.ViewModels
         {
             _navigationService = navigationService;
         }
-        
-        public ICommand GoToNextPage => new Command(() => 
+
+        public StartViewModel()
+        {
+
+        }
+
+        public ICommand GoToNextPage => new Command(() =>
             _navigationService.NavigateToAsync<SecondViewModel>());
     }
 }
