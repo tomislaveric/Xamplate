@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="{Binding PageTitle}" xmlns:viewModels="clr-namespace:Xamarin.FormsMVVMTemplate.ViewModels" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Xamarin.FormsMVVMTemplate.Views.SecondView">
+    <ContentPage.BindingContext>
+        <viewModels:SecondViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Label Text="{Binding WelcomeText}"/>
+	</ContentPage.Content>
+</ContentPage>
