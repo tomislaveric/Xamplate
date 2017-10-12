@@ -1,7 +1,7 @@
 # Xamplate by Tomislav Erić @ arconsis IT-Solutions GmbH
 A .NETStandard Xamarin.Forms MVVM boilerplate code with Constructor Injection, ViewModel First Navigation, View-ViewModel autowireing and automatic PropertyChanged behvaiour.
 
-With this Xamarin.Forms Template you can start an enterprise application with a lot of pre-built in features. To write this boilerplate code i was inspired by David Britchs book [Enterprise Application Patterns using Xamarin.Forms](https://developer.xamarin.com/guides/xamarin-forms/enterprise-application-patterns/). Down below is a list with all pre-built in functionalities for now on.
+With this Xamarin.Forms Template you can start an enterprise application with a lot of pre-built in features. To write this boilerplate code i was inspired by David Britchs book [Enterprise Application Patterns using Xamarin.Forms](https://developer.xamarin.com/guides/xamarin-forms/enterprise-application-patterns/) and big thanks you goes to the youtube channel [cars and code](https://www.youtube.com/channel/UC2E5d8XZyIdA8OG7ownZ21Q) which explained how to use Autofac. Down below is a list with all pre-built in functionalities for now on.
 
 * [Xamarin.Forms .NETStandard (Stable Channel)](#netstandard)
 * [MVVM Structure (No third party library)](#mvvm)
