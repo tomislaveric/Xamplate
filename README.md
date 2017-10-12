@@ -1,16 +1,16 @@
 # Xamplate by Tomislav Erić @ arconsis IT-Solutions GmbH
-A .NETStandard 2.0 Xamarin.Forms MVVM boilerplate code with Constructor Injection, ViewModel First Navigation, View-ViewModel autowireing and automatic PropertyChanged behvaiour.
+A .NETStandard Xamarin.Forms MVVM boilerplate code with Constructor Injection, ViewModel First Navigation, View-ViewModel autowireing and automatic PropertyChanged behvaiour.
 
 With this Xamarin.Forms Template you can start an enterprise application with a lot of pre-built in features. To write this boilerplate code i was inspired by David Britchs book [Enterprise Application Patterns using Xamarin.Forms](https://developer.xamarin.com/guides/xamarin-forms/enterprise-application-patterns/). Down below is a list with all pre-built in functionalities for now on.
 
-* [Xamarin.Forms .NETStandard 2.0 (Stable Channel)](#netstandard)
+* [Xamarin.Forms .NETStandard (Stable Channel)](#netstandard)
 * [MVVM Structure (No third party library)](#mvvm)
 * [Constructor Injection (Autofac)](#ci)
 * [Autowireing for Pages and ViewModels](#autowireing)
 * [ViewModel First Navigationservice](#navigationservice)
 * [Automatically trigger SetPropertyChanged (Fody.PropertyChanged)](#propertychanged)
 
-### <a name=netstandard>Xamarin.Forms .NETStandard 2.0</a>
+### <a name=netstandard>Xamarin.Forms .NETStandard</a>
 With the new version of Xamarin.Forms we are now able to use the [.NETStandard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard). This means, we can use a ton of well maintained nuget packages developed by the huge c# community like the EntityFramework for example.
 
 ### <a name=mvvm>MVVM Structure</a>
