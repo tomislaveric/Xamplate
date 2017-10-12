@@ -8,9 +8,8 @@ namespace Xamplate.ViewModels
 {
     public class HomeViewModel : ViewModelBase
     {
-
-        public string WelcomeText => "Hello MVVM World";
         public string PageTitle => "Start Page";
+        public string GoToNextPageButtonText => "Push to next page";
 
         private readonly INavigator _navigator;
 
