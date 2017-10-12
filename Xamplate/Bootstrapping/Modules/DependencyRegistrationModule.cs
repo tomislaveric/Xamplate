@@ -5,7 +5,7 @@ using Xamplate.Services;
 
 namespace Xamplate.Bootstrapping.Modules
 {
-    public class AutofacModule : Module
+    public class DependencyRegistrationModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

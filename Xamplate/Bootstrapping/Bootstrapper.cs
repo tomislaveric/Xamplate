@@ -34,7 +34,7 @@ namespace Xamplate.Bootstrapping
         {
             var viewFactory = container.Resolve<IViewFactory>();
             
-            var mainPage = viewFactory.Resolve<HomeViewModel>();
+            var mainPage = viewFactory.Resolve<HomeBaseViewModel>();
             var navPage = new NavigationPage(mainPage);
             
             _app.MainPage = navPage;
@@ -42,14 +42,14 @@ namespace Xamplate.Bootstrapping
 
         private void ConfigureContainer(ContainerBuilder builder)
         {
-            builder.RegisterModule<AutofacModule>();
+            builder.RegisterModule<DependencyRegistrationModule>();
             builder.RegisterModule<ViewModelViewRegistrationModule>();
         }
 
         private void RegisterViews(IViewFactory viewFactory)
         {
-            viewFactory.Register<HomeViewModel, HomePage>();
-            viewFactory.Register<SecondViewModel, SecondPage>();
+            viewFactory.Register<HomeBaseViewModel, HomePage>();
+            viewFactory.Register<SecondBaseViewModel, SecondPage>();
         }
     }
 }

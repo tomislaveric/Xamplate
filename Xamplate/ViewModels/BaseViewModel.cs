@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 
 namespace Xamplate.ViewModels
 {
-    public abstract class ViewModelBase : IViewModelBase
+    public abstract class BaseViewModel : IViewModelBase
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
