@@ -9,10 +9,10 @@ namespace Xamplate.Bootstrapping.Modules
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterType<StartViewModel>().SingleInstance();
-            builder.RegisterType<StartView>().SingleInstance();
-
-            builder.RegisterType<SecondView>().SingleInstance();
+            builder.RegisterType<HomePage>().SingleInstance();
+            builder.RegisterType<HomeViewModel>().SingleInstance();
+            
+            builder.RegisterType<SecondPage>().SingleInstance();
             builder.RegisterType<SecondViewModel>().SingleInstance();
         }
     }

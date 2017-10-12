@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace Xamplate.Views
 {
-    public partial class StartView : ContentPage
+    public partial class HomePage : ContentPage
     {
-        public StartView()
+        public HomePage()
         {
             InitializeComponent();
         }

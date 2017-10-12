@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Title="{Binding PageTitle}" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Xamplate.Views.StartView">
+<ContentPage Title="{Binding PageTitle}" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Xamplate.Views.HomePage">
     <ContentPage.Content>
         <Button Text="{Binding WelcomeText}" Command="{Binding NextPageCommand}"/>
     </ContentPage.Content>

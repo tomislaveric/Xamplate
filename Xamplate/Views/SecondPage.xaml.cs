@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace Xamplate.Views
 {
-    public partial class SecondView : ContentPage
+    public partial class SecondPage : ContentPage
     {
-        public SecondView()
+        public SecondPage()
         {
             InitializeComponent();
         }

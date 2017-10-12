@@ -26,7 +26,7 @@ namespace Xamplate.Services
             var viewModel = _componentContext.Resolve<TViewModel>();
             var viewType = _map[typeof(TViewModel)];
             var view = _componentContext.Resolve(viewType) as Page;
-
+            
             view.BindingContext = viewModel;
             return view;
         }

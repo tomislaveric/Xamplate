@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace Xamplate.Bootstrapping
 {
-    public class Bootstrapper : AutofacBootstrapper
+    public class Bootstrapper
     {
         private readonly App _app;
 
@@ -16,27 +16,40 @@ namespace Xamplate.Bootstrapping
         {
             _app = app;
         }
-
-        protected override void ConfigureContainer(ContainerBuilder builder)
+        
+        public void Run()
         {
-            base.ConfigureContainer(builder);
-            builder.RegisterModule<ViewModelViewRegistrationModule>();
+            var builder = new ContainerBuilder();
+            ConfigureContainer(builder);
+
+            var container = builder.Build();
+
+            var viewFactory = container.Resolve<IViewFactory>();
+            RegisterViews(viewFactory);
+
+            ConfigureApplication(container);
         }
 
-        protected override void ConfigureApplication(IContainer container)
+        private void ConfigureApplication(IContainer container)
         {
             var viewFactory = container.Resolve<IViewFactory>();
             
-            var mainPage = viewFactory.Resolve<StartViewModel>();
+            var mainPage = viewFactory.Resolve<HomeViewModel>();
             var navPage = new NavigationPage(mainPage);
             
             _app.MainPage = navPage;
         }
 
-        protected override void RegisterViews(IViewFactory viewFactory)
+        private void ConfigureContainer(ContainerBuilder builder)
         {
-            viewFactory.Register<StartViewModel, StartView>();
-            viewFactory.Register<SecondViewModel, SecondView>();
+            builder.RegisterModule<AutofacModule>();
+            builder.RegisterModule<ViewModelViewRegistrationModule>();
+        }
+
+        private void RegisterViews(IViewFactory viewFactory)
+        {
+            viewFactory.Register<HomeViewModel, HomePage>();
+            viewFactory.Register<SecondViewModel, SecondPage>();
         }
     }
 }

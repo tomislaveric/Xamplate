@@ -6,15 +6,15 @@ using Xamplate.Services;
 
 namespace Xamplate.ViewModels
 {
-    public class StartViewModel : ViewModelBase
+    public class HomeViewModel : ViewModelBase
     {
 
         public string WelcomeText => "Hello MVVM World";
         public string PageTitle => "Start Page";
 
-        INavigator _navigator;
+        private readonly INavigator _navigator;
 
-        public StartViewModel(INavigator navigator)
+        public HomeViewModel(INavigator navigator)
         {
             _navigator = navigator;
         }

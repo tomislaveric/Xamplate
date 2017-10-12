@@ -1,9 +1,5 @@
-﻿using Xamarin.Forms;
-using Xamplate.Views;
-using Autofac;
-using Xamplate.Services;
-using System.Collections.Generic;
-using System;
+﻿using System;
+using Xamarin.Forms;
 using Xamplate.Bootstrapping;
 
 namespace Xamplate
@@ -31,7 +27,7 @@ namespace Xamplate
             // Handle when your app resumes
         }
 
-        public void LoadTypes()
+        private void LoadTypes()
         {
             var bootstrapper = new Bootstrapper(this);
             bootstrapper.Run();

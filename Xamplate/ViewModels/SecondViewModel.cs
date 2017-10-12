@@ -1,4 +1,7 @@
-﻿namespace Xamplate.ViewModels
+﻿using System;
+using Xamarin.Forms;
+
+namespace Xamplate.ViewModels
 {
     public class SecondViewModel : ViewModelBase
     {
