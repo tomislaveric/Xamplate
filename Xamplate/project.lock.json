@@ -15,6 +15,12 @@
           "lib/netstandard1.1/Autofac.dll": {}
         }
       },
+      "Fody/2.0.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.4/Fody.targets": {}
+        }
+      },
       "Microsoft.NETCore.Jit/1.0.2": {
         "type": "package"
       },
@@ -148,6 +154,18 @@
         },
         "build": {
           "build/NETStandard.Library.targets": {}
+        }
+      },
+      "PropertyChanged.Fody/2.1.4": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "[2.0.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1003,6 +1021,30 @@
         "lib/netstandard1.1/Autofac.xml"
       ]
     },
+    "Fody/2.0.0": {
+      "sha512": "16DA2tPaBXpzIZVtIRgDbB/rh7LgaEYeEY0F+CD8gMtvWMLiXnyFZyntt0NrxUpTEDGx1yqnEkWEcdfi79wW9g==",
+      "type": "package",
+      "path": "fody/2.0.0",
+      "files": [
+        "Content/FodyWeavers.xml",
+        "Fody.dll",
+        "Fody.pdb",
+        "FodyCommon.dll",
+        "FodyCommon.pdb",
+        "FodyIsolated.dll",
+        "FodyIsolated.pdb",
+        "Mono.Cecil.Mdb.dll",
+        "Mono.Cecil.Pdb.dll",
+        "Mono.Cecil.Rocks.dll",
+        "Mono.Cecil.dll",
+        "Tools/install.ps1",
+        "build/dotnet/Fody.targets",
+        "build/netstandard1.4/Fody.targets",
+        "build/portable-net+sl+win+wpa+wp/Fody.targets",
+        "fody.2.0.0.nupkg.sha512",
+        "fody.nuspec"
+      ]
+    },
     "Microsoft.NETCore.Jit/1.0.2": {
       "sha512": "Ok2vWofa6X8WD9vc4pfLHwvJz1/B6t3gOAoZcjrjrQf7lQOlNIuZIZtLn3wnWX28DuQGpPJkRlBxFj7Z5txNqw==",
       "type": "package",
@@ -1309,6 +1351,21 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "PropertyChanged.Fody/2.1.4": {
+      "sha512": "ng/6S2Pt282URl9nVZzXqvpjw/4DSC20ve1QRxkc6Bcg+WBHRylOog/sICBZXmA1YvydaM2E7mprim8d+TFQ4Q==",
+      "type": "package",
+      "path": "propertychanged.fody/2.1.4",
+      "files": [
+        "PropertyChanged.Fody.dll",
+        "PropertyChanged.Fody.pdb",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "propertychanged.fody.2.1.4.nupkg.sha512",
+        "propertychanged.fody.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -4254,6 +4311,7 @@
       "Autofac >= 4.6.1",
       "Microsoft.NETCore.Portable.Compatibility >= 1.0.1",
       "NETStandard.Library >= 2.0.1",
+      "PropertyChanged.Fody >= 2.1.4",
       "Xamarin.Forms >= 2.4.0.282"
     ],
     ".NETStandard,Version=v1.5": []
@@ -4273,6 +4331,7 @@
       "Autofac": "4.6.1",
       "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
       "NETStandard.Library": "2.0.1",
+      "PropertyChanged.Fody": "2.1.4",
       "Xamarin.Forms": "2.4.0.282"
     },
     "frameworks": {

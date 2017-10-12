@@ -3,6 +3,7 @@
     "Autofac": "4.6.1",
     "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
     "NETStandard.Library": "2.0.1",
+    "PropertyChanged.Fody": "2.1.4",
     "Xamarin.Forms": "2.4.0.282"
   },
   "frameworks": {
