@@ -7,6 +7,6 @@
     "Xamarin.Forms": "2.4.0.282"
   },
   "frameworks": {
-    "netstandard1.5": {}
+    "netstandard1.6": {}
   }
 }
