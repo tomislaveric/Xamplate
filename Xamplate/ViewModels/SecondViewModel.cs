@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace Xamplate.ViewModels
 {
-    public class SecondBaseViewModel : BaseViewModel
+    public class SecondViewModel : BaseViewModel
     {
         public string PageTitle => "Second Page";
         public string IncrementButtonText => "Increment";

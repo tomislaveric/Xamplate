@@ -20,7 +20,7 @@ namespace Xamplate.ViewModels
 
         public ICommand NextPageCommand => new Command(() =>
         {
-            _navigator.PushAsync<SecondBaseViewModel>();
+            _navigator.PushAsync<SecondViewModel>();
         });
     }
 }

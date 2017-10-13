@@ -49,7 +49,7 @@ namespace Xamplate.Bootstrapping
         private void RegisterViews(IViewFactory viewFactory)
         {
             viewFactory.Register<HomeBaseViewModel, HomePage>();
-            viewFactory.Register<SecondBaseViewModel, SecondPage>();
+            viewFactory.Register<SecondViewModel, SecondPage>();
         }
     }
 }

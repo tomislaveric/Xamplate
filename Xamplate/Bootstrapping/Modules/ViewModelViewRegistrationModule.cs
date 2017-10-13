@@ -13,7 +13,7 @@ namespace Xamplate.Bootstrapping.Modules
             builder.RegisterType<HomeBaseViewModel>().SingleInstance();
             
             builder.RegisterType<SecondPage>();
-            builder.RegisterType<SecondBaseViewModel>();
+            builder.RegisterType<SecondViewModel>();
         }
     }
 }
