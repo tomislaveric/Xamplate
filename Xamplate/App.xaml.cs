@@ -1,7 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 using Xamplate.Bootstrapping;
 
+[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace Xamplate
 {
     public partial class App : Application
