@@ -14,7 +14,13 @@ With this Xamarin.Forms Template you can start an enterprise application with a 
 With the new version of Xamarin.Forms we are now able to use the [.NETStandard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard). This means, we can use a ton of well maintained nuget packages developed by the huge c# community like the EntityFramework for example.
 
 ### <a name=mvvm>MVVM Structure</a>
-This repository was made to go along with the [MVVM Pattern](https://developer.xamarin.com/guides/xamarin-forms/enterprise-application-patterns/mvvm/). You don't have to use a third party library (you could if want). The MVVM pattern helps you to cleanly spereate your business and presentation logic of your application. 
+This repository was made to go along with the [MVVM Pattern](https://developer.xamarin.com/guides/xamarin-forms/enterprise-application-patterns/mvvm/). You don't have to use a third party library (you could if want). The MVVM pattern helps you to cleanly spereate your business and presentation logic of your application.
+
+#### MVVM Best Practices
+* If you're sure that your binded property will never change, so use the x:Static flag instead of Binding. (Binding is expensive).
+* Use ICommand to trigger actions instead of triggering th events from code-behind.
+* If you use a DataTemplate in your ListView for example, [declare the DataType of that class in XAML.](https://blog.xamarin.com/databinding-power-moves-you-may-not-be-using-yet/)
+* Try to avoid nested XAML elements as far as possible
 
 **All of your ViewModels need to inherit from the `BaseViewModel` to get things work!**
 
