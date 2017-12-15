@@ -1,3 +1,7 @@
+# ToDo (Need help)
+Create a template which can be started from visual studio mac/windows 
+
+
 # Xamplate by Tomislav Erić @ arconsis IT-Solutions GmbH
 A .NETStandard Xamarin.Forms MVVM boilerplate code with Constructor Injection, ViewModel First Navigation, View-ViewModel autowireing and automatic PropertyChanged behvaiour.
 
