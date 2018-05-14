@@ -1,9 +1,8 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamplate.Bootstrapping;
 
-[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Xamplate
 {
     public partial class App : Application
@@ -11,7 +10,8 @@ namespace Xamplate
         public App()
         {
             InitializeComponent();
-            LoadTypes();
+
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
@@ -27,12 +27,6 @@ namespace Xamplate
         protected override void OnResume()
         {
             // Handle when your app resumes
-        }
-
-        private void LoadTypes()
-        {
-            var bootstrapper = new Bootstrapper(this);
-            bootstrapper.Run();
         }
     }
 }
