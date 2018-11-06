@@ -17,13 +17,13 @@
   <TemplateContent>
 			<ProjectCollection>
 			        <ProjectTemplateLink ProjectName="$safeprojectname$" CopyParameters="true">
-			            Xamplate\MyTemplate.vstemplate
+			            Xamplate\Xamplate.vstemplate
 			        </ProjectTemplateLink>
 			        <ProjectTemplateLink ProjectName="$safeprojectname$.Droid" CopyParameters="true">
-			            Xamplate.Android\MyTemplate.vstemplate
+			            Xamplate.Android\Xamplate.vstemplate
 			        </ProjectTemplateLink>
 			            <ProjectTemplateLink ProjectName="$safeprojectname$.iOS" CopyParameters="true">
-			            Xamplate.iOS\MyTemplate.vstemplate
+			            Xamplate.iOS\Xamplate.vstemplate
 			        </ProjectTemplateLink>
 			    </ProjectCollection>
   </TemplateContent>
