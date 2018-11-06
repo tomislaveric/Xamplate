@@ -1,9 +1,9 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using Xamplate.Interfaces;
+using $safeprojectname$.Interfaces;
 
-namespace Xamplate.ViewModels
+namespace $safeprojectname$.ViewModels
 {
 	public abstract class BaseViewModel : IViewModelBase
 	{

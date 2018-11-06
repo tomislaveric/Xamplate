@@ -1,10 +1,10 @@
 ﻿using System;
 using Autofac;
 using Xamarin.Forms;
-using Xamplate.Interfaces;
-using Xamplate.Services;
+using $safeprojectname$.Interfaces;
+using $safeprojectname$.Services;
 
-namespace Xamplate.Bootstrapping.Modules
+namespace $safeprojectname$.Bootstrapping.Modules
 {
 	public class DependencyRegistrationModule : Module
 	{

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Autofac;
 using Xamarin.Forms;
-using Xamplate.Interfaces;
+using $safeprojectname$.Interfaces;
 
-namespace Xamplate.Services
+namespace $safeprojectname$.Services
 {
 	public class ViewFactory : IViewFactory
 	{

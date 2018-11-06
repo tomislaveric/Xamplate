@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Xamplate.Interfaces
+namespace $safeprojectname$.Interfaces
 {
 	public interface INavigator
 	{

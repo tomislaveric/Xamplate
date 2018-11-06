@@ -1,12 +1,12 @@
 ﻿using System;
 using Autofac;
 using Xamarin.Forms;
-using Xamplate.Bootstrapping.Modules;
-using Xamplate.Interfaces;
-using Xamplate.ViewModels;
-using Xamplate.Views;
+using $safeprojectname$.Bootstrapping.Modules;
+using $safeprojectname$.Interfaces;
+using $safeprojectname$.ViewModels;
+using $safeprojectname$.Views;
 
-namespace Xamplate.Bootstrapping
+namespace $safeprojectname$.Bootstrapping
 {
 	public class Bootstrapper
 	{

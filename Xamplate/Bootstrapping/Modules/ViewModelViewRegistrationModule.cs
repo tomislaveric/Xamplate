@@ -1,9 +1,9 @@
 ﻿using System;
 using Autofac;
-using Xamplate.ViewModels;
-using Xamplate.Views;
+using $safeprojectname$.ViewModels;
+using $safeprojectname$.Views;
 
-namespace Xamplate.Bootstrapping.Modules
+namespace $safeprojectname$.Bootstrapping.Modules
 {
 	public class ViewModelViewRegistrationModule : Module
 	{
