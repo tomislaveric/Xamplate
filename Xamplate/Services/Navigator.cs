@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamplate.Interfaces;
+using $safeprojectname$.Interfaces;
 
-namespace Xamplate.Services
+namespace $safeprojectname$.Services
 {
 	public class Navigator : INavigator
 	{

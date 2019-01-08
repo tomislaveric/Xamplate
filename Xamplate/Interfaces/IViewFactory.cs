@@ -1,7 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 
-namespace Xamplate.Interfaces
+namespace $safeprojectname$.Interfaces
 {
 	public interface IViewFactory
 	{

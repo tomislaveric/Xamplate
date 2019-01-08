@@ -1,10 +1,10 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Xamplate.Bootstrapping;
+using $safeprojectname$.Bootstrapping;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Xamplate
+namespace $safeprojectname$
 {
 	public partial class App : Application
 	{

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-namespace Xamplate.Interfaces
+namespace $safeprojectname$.Interfaces
 {
 	public interface IViewModelBase : INotifyPropertyChanged
 	{

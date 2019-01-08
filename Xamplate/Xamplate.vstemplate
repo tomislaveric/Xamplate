@@ -1,0 +1,53 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Xamplate</Name>
+    <Description>Xamplate.Core</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Xamplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Xamplate.csproj" File="Xamplate.csproj" ReplaceParameters="true">
+      <Folder Name="Bootstrapping" TargetFolderName="Bootstrapping">
+        <Folder Name="Modules" TargetFolderName="Modules">
+          <ProjectItem ReplaceParameters="true" TargetFileName="DependencyRegistrationModule.cs">DependencyRegistrationModule.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ViewModelViewRegistrationModule.cs">ViewModelViewRegistrationModule.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Bootstrapper.cs">Bootstrapper.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Interfaces" TargetFolderName="Interfaces">
+        <ProjectItem ReplaceParameters="true" TargetFileName="INavigator.cs">INavigator.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IViewFactory.cs">IViewFactory.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IViewModelBase.cs">IViewModelBase.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Services" TargetFolderName="Services">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Navigator.cs">Navigator.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ViewFactory.cs">ViewFactory.cs</ProjectItem>
+      </Folder>
+      <Folder Name="ViewModels" TargetFolderName="ViewModels">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BaseViewModel.cs">BaseViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomeBaseViewModel.cs">HomeBaseViewModel.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SecondViewModel.cs">SecondViewModel.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomePage.xaml">HomePage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="HomePage.xaml.cs">HomePage.xaml.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SecondPage.xaml">SecondPage.xaml</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="SecondPage.xaml.cs">SecondPage.xaml.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="FodyWeavers.xml">FodyWeavers.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

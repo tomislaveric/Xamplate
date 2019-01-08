@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Input;
 using Xamarin.Forms;
-using Xamplate.Interfaces;
+using $safeprojectname$.Interfaces;
 
-namespace Xamplate.ViewModels
+namespace $safeprojectname$.ViewModels
 {
 	public class HomeBaseViewModel : BaseViewModel
 	{

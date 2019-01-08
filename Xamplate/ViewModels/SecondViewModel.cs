@@ -2,7 +2,7 @@
 using PropertyChanged;
 using Xamarin.Forms;
 
-namespace Xamplate.ViewModels
+namespace $safeprojectname$.ViewModels
 {
 	public class SecondViewModel : BaseViewModel
 	{

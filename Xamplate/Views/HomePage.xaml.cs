@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-namespace Xamplate.Views
+namespace $safeprojectname$.Views
 {
     public partial class HomePage : ContentPage
     {
