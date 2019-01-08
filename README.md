@@ -1,5 +1,12 @@
-# ToDo (Need help)
-Create a template which can be started from visual studio mac/windows 
+# Getting started (Windows)
+Thank you [chris lynch](https://github.com/chris-lynch) for generating a Template! Here are the steps to start under Windows!
+
+Original Comment from chris:
+> I created the template files necessary to use the project in Visual Studio 2017 as a template.
+> Simply zip up the repository and place it in "Documents\Visual Studio 2017\Templates\ProjectTemplates".
+> Make sure the zip file doesn't contain a top level folder. if you opened the zip you should see Xamplate.vstemplate and the Xemplate.sln at the top level.
+> Restart visual studio and create a new Project under Visual C# and "Xamplate" should be at the bottom of the list. If you cant see it then use the search bar.
+It also updates the namespace and assembly names of each project.
 
 # Xamplate by Tomislav Erić
 A .NETStandard 2.0 Xamarin.Forms MVVM boilerplate code with Constructor Injection, ViewModel First Navigation, View-ViewModel autowireing and automatic PropertyChanged behvaiour.
